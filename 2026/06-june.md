@@ -1,5 +1,8 @@
 # June 2026
 
+## 2026-06-26: Automated my whole job-application intake
+**Shipped.** My `/job-app` workflow now goes from a pasted job description to a tailored resume, cover letter, QA pass, and interview prep, and it auto-creates the tracking folder and logs the row via a Google Apps Script webhook. Every drafted output passes through an independent review agent before it's "done." The review loop adds latency; for application quality it's worth it.
+
 ## 2026-06-23: Built a local landing page for a consulting offer
 **Shipped.** Stood up a standalone San Diego landing page for my AI-consulting side (Build with Luke), matched to the brand system, responsive, with a scrape-safe booking flow and no exposed contact details. Constraint drove the design: "no displayed email or phone" forced a cleaner funnel than I'd have built otherwise.
 
