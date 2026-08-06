@@ -12,6 +12,7 @@ I'm a product leader who builds. This is the working record: short entries, time
 ## Currently working on
 - ApplyTrue: contract-first job-application agent (live at applytrue.com)
 - A personal "digital workforce" of AI agents that run my product, ops, and job-search workflows
-- Small shipped apps: Hype Me (iOS), Three Clues (iOS)
+- Build with Luke: AI consulting and coaching
+- Shipped: Hype Me (iOS)
 
 Find me: [lukesquire.us](https://lukesquire.us)
