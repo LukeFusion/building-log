@@ -1,0 +1,7 @@
+# August 2026
+
+## 2026-08-04: Chose a slower pipeline over a faster wrong answer
+**Decided.** My job-application workflow was running 26 minutes against a 5-minute target, so I ran a postmortem on where the time actually goes. Most of the proposed speedups held up: a cheaper model for the first draft, parallel fix rounds, a hard cap of one revision loop. I rejected one. Surfacing drafts the moment the automated checks pass, and letting the independent review land as a trailing follow-up, would have put a fabricated job title in front of me formatted as my own resume, because the mechanical checks validate length and keywords but never titles. Speed work stays worth doing right up until it moves a correctness check behind the thing that check exists to protect.
+
+## 2026-08-03: My monitoring failed at the exact moment I needed it
+**Learned.** Google revoked the OAuth grant on every Apps Script project on my account overnight and five automations went dark at once. The purpose-built watchdog I wrote to catch exactly this class of failure was one of the five, because it shipped its alerts through the same authorization it was supposed to be watching. So did the dead-man's switch backstopping the watchdog. So did the per-job failure alerts. Three independent safety nets, one shared dependency, three silent days before I noticed on my own. The lesson cost me a long weekend of automation: a monitor that lives inside the failure domain it watches isn't monitoring anything.
